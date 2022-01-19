@@ -1,69 +1,50 @@
 body{
    background: url('baz.jpg') no-repeat center center/cover;
-    height: 300px;
+/*    height: 18.75rem;*/
      width: auto;
 }
 
 
 #txt{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
   
-    font-size: 40px;
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 #home{
-/*    flex-direction: column;*/
-    padding:3px 200px;
+     
+    flex-direction: column;
+    padding:0.1875rem 12.5rem;
     height: 100%;
     width: 70%;
     justify-content: center;
     align-items: center;
-    margin-left: 240px;
+    margin-left: 15rem;
+   
 }
 
 
-
-
-
-
-
-
-
-#yo{
-    margin-bottom: 20px;
-}
 hr {
-    width:15%;
+    width:45%;
     margin:0 auto;
-    margin-bottom: 30px;
-   border: 2px solid crimson;
-  border-radius: 5px;
+    margin-bottom: 1.875rem;
+   border: 0.125rem solid crimson;
+  border-radius: 0.3125rem;
 }
 
 
-
-
-
-
-/*
-        @media only screen  (max-width:600px) {
-        #home{
-    flex-direction: column;
-    padding:3px 300px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0%;
-           }
-
-            #txt{
-        font-size: 30px;
-    }
-        }
-
+@media screen and (max-width: 900px){
+    #home{
+       display: flex;
+       margin: auto;
+        padding: inherit;
+/*        width: 100%;*/
         
-*/
+    }
+    
+    
+}
 
 
 
