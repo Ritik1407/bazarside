@@ -1,7 +1,11 @@
 body{
-   background: url('baz.jpg') no-repeat center center/cover;
+   background: url('baz.jpg') ;
 /*    height: 18.75rem;*/
      width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 
